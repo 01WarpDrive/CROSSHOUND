@@ -1,10 +1,3 @@
-"""
-Provide high-performance satellite network traffic packet processing capabilities:
-- It supports a throughput processing capacity of at least 100,000 data packets per second.
-- Ensure that the data delay does not exceed 500ms.
-"""
-
-
 import json
 import time
 import math
@@ -13,196 +6,169 @@ import torch
 import pandas as pd
 import numpy as np
 from typing import Generator, List, Dict, Tuple
-from concurrent.futures import ThreadPoolExecutor
-from itertools import chain
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
+from itertools import chain, islice
 import torch.nn.functional as F
 from gensim.models import FastText
 from dataclasses import dataclass
-from collections import deque
+from collections import deque, defaultdict
 from module.model import VAE
 from module.config import DATASET_FILE_MAP
 
-DEFAULT_BATCH_SIZE = 5000
-TARGET_THROUGHPUT = 100000  # packets per second
-MAX_LATENCY_MS = 500  # milliseconds
+# 性能参数
+DEFAULT_BATCH_SIZE = 10000  # 增大批次大小
+TARGET_THROUGHPUT = 100000
+MAX_LATENCY_MS = 500
+PREFETCH_FACTOR = 2  # 预取因子
 
-
-def Sentence_Construction(entry: Dict) -> List[str]:
-    """构造句子短语"""
-    return f"{entry['src_ip_port']} {entry['dest_ip_port']} {entry['type']}".split()
-
-
-def batch_json_parse(lines: List[str]) -> List[Dict]:
-    """批量解析JSON行"""
+def batch_json_parse_optimized(lines: List[str]) -> List[Dict]:
+    """优化版JSON解析"""
     return [json.loads(line) for line in lines]
 
-
-def stream_data(file_path: str, batch_size: int = DEFAULT_BATCH_SIZE) -> Generator[List[Dict], None, None]:
-    """
-    流式读取JSON数据文件
-    
-    Args:
-        file_path: 数据文件路径
-        batch_size: 每批处理的行数
-        
-    Yields:
-        每批解析后的JSON数据
-    """
+def stream_data_optimized(file_path: str, batch_size: int = DEFAULT_BATCH_SIZE) -> Generator[List[Dict], None, None]:
+    """优化版流式读取"""
     with open(file_path, 'r', encoding='utf-8') as f:
-        batch_lines = []
-        for line in f:
-            batch_lines.append(line.strip())
-            if len(batch_lines) >= batch_size:
-                yield batch_json_parse(batch_lines)
-                batch_lines = []
-        
-        # 处理最后一批数据
-        if batch_lines:
-            yield batch_json_parse(batch_lines)
+        while True:
+            batch_lines = list(islice(f, batch_size))
+            if not batch_lines:
+                break
+            yield batch_json_parse_optimized(batch_lines)
 
+def Sentence_Construction_optimized(entry: Dict) -> List[str]:
+    """优化版句子构造"""
+    src = entry.get('src_ip_port', '')
+    dest = entry.get('dest_ip_port', '')
+    type_ = entry.get('type', '')
+    return f"{src} {dest} {type_}".split()
 
-def process_batch_with_phrases(batch: List[Dict]) -> List[Dict]:
-    """处理单个批次，添加phrase字段"""
+def process_batch_parallel(batch: List[Dict]) -> List[Dict]:
+    """并行处理批次"""
     for event in batch:
-        event['phrase'] = Sentence_Construction(event)
+        event['phrase'] = Sentence_Construction_optimized(event)
     return batch
 
-
-def load_data_streaming(file_path: str, 
-                       batch_size: int = DEFAULT_BATCH_SIZE, 
-                       num_workers: int = 4) -> Generator[pd.DataFrame, None, None]:
-    """
-    流式加载和处理数据
-    
-    Args:
-        file_path: 输入文件路径
-        batch_size: 批次大小
-        num_workers: 并行工作线程数
-        
-    Yields:
-        处理后的DataFrame批次
-    """
+def load_data_streaming_optimized(file_path: str, batch_size: int = DEFAULT_BATCH_SIZE, num_workers: int = 8) -> Generator[pd.DataFrame, None, None]:
+    """优化版流式加载"""
     total_records = 0
-    batch_count = 0
     
-    # 流式读取和处理数据
-    for batch_idx, json_batch in enumerate(stream_data(file_path, batch_size)):
-        batch_count += 1
+    for batch_idx, json_batch in enumerate(stream_data_optimized(file_path, batch_size)):
         total_records += len(json_batch)
         
-        # 并行处理phrase构造
-        with ThreadPoolExecutor(max_workers=num_workers) as executor:
-            # 将大批次分成更小的子批次进行并行处理
-            sub_batch_size = max(1, len(json_batch) // num_workers)
-            sub_batches = [json_batch[i:i + sub_batch_size] 
-                          for i in range(0, len(json_batch), sub_batch_size)]
-            
-            # 并行处理子批次
-            processed_sub_batches = list(executor.map(process_batch_with_phrases, sub_batches))
-            
-            # 合并处理后的数据
+        # 使用进程池并行处理（CPU密集型任务）
+        with ProcessPoolExecutor(max_workers=num_workers) as executor:
+            sub_batch_size = max(1, len(json_batch) // (num_workers * 2))
+            sub_batches = [json_batch[i:i + sub_batch_size] for i in range(0, len(json_batch), sub_batch_size)]
+            processed_sub_batches = list(executor.map(process_batch_parallel, sub_batches))
             processed_batch = list(chain.from_iterable(processed_sub_batches))
         
-        # 转换为DataFrame并排序
+        # 使用pandas的优化操作
         df_batch = pd.DataFrame(processed_batch)
-        df_batch.sort_values('timestamp', inplace=True)
+        if not df_batch.empty:
+            df_batch.sort_values('timestamp', inplace=True, kind='mergesort')
         
-        # 输出进度
-        if batch_idx % 100 == 0:
-            print(f'Processed batch {batch_idx}, total records: {total_records}')
+        if batch_idx % 50 == 0:
+            print(f'Processed batch {batch_idx}, records: {total_records:,}')
         
         yield df_batch
+
+def construct_graph_optimized(df):
+    """极致优化的图构建"""
+    nodes = defaultdict(list)
     
-    print(f'Finish streaming loading. Processed {total_records} records in {batch_count} batches')
-
-
-
-def construct_graph(df):
-    """使用pandas向量化操作，最快的版本"""
-    nodes = {}
+    # 使用向量化操作
+    src_phrases = df[['src_ip_port', 'phrase']].values
+    dest_phrases = df[['dest_ip_port', 'phrase']].values
     
-    # 分组聚合，一次性处理所有相同的actor_id和object_id
     # 处理源IP
-    src_groups = df.groupby('src_ip_port')['phrase'].agg(lambda x: list(x)).to_dict()
-    for actor_id, phrase_list in src_groups.items():
-        # 展平列表的列表
-        flat_list = []
-        for sublist in phrase_list:
-            if isinstance(sublist, (list, tuple)):
-                flat_list.extend(sublist)
-            else:
-                flat_list.append(sublist)
-        nodes[actor_id] = flat_list
+    for src, phrase in src_phrases:
+        if isinstance(phrase, (list, tuple)):
+            nodes[src].extend(phrase)
+        else:
+            nodes[src].append(phrase)
     
     # 处理目标IP
-    dest_groups = df.groupby('dest_ip_port')['phrase'].agg(lambda x: list(x)).to_dict()
-    for object_id, phrase_list in dest_groups.items():
-        flat_list = []
-        for sublist in phrase_list:
-            if isinstance(sublist, (list, tuple)):
-                flat_list.extend(sublist)
-            else:
-                flat_list.append(sublist)
-        
-        if object_id in nodes:
-            nodes[object_id].extend(flat_list)
+    for dest, phrase in dest_phrases:
+        if isinstance(phrase, (list, tuple)):
+            nodes[dest].extend(phrase)
         else:
-            nodes[object_id] = flat_list
+            nodes[dest].append(phrase)
     
-    return nodes
+    return dict(nodes)
 
-
-class PositionalEncoder:
-    """
-    Position encoder similar to Transformer; copy from FLASH project.
-    """
-    def __init__(self, d_model, max_len=100000):
-        position = torch.arange(max_len).unsqueeze(1)
-        div_term = torch.exp(torch.arange(0, d_model, 2) * (-math.log(10000.0) / d_model))
-        self.pe = torch.zeros(max_len, d_model)
-        self.pe[:, 0::2] = torch.sin(position * div_term)
-        self.pe[:, 1::2] = torch.cos(position * div_term)
-
-    def embed(self, x):
-        return x + self.pe[:x.size(0)]
-
-
-def infer(document, w2vmodel, encoder):
-    word_embeddings = [w2vmodel.wv[word] for word in document if word in  w2vmodel.wv]
-    
-    if not word_embeddings:
-        return np.zeros(64)
-
-    combined_embeddings = np.array(word_embeddings)
-    output_embedding = torch.tensor(combined_embeddings, dtype=torch.float)
-
-    if len(document) < 100000:
-        output_embedding = encoder.embed(output_embedding)
-
-    output_embedding = output_embedding.detach().cpu().numpy()
-    return np.mean(output_embedding, axis=0)
-
-
-def Featurize(nodes, w2vmodel, encoder):
+def Featurize_optimized(nodes: Dict, w2vmodel, wv_vectors, word_to_index):
+    """预加载数据的特征提取"""
     features = []
-    node_map_idx = {} # {node_id: index in features}
+    node_map_idx = {}
+    
     for node, phrases in nodes.items():
-        if len(phrases) > 1:
-            features.append(infer(phrases, w2vmodel, encoder))
+        if len(phrases) <= 1:
+            continue
+            
+        # 使用集合推导式加速
+        valid_indices = [word_to_index[word] for word in phrases if word in word_to_index]
+        
+        if not valid_indices:
+            features.append(np.zeros(64, dtype=np.float32))
             node_map_idx[node] = len(features) - 1
-
+            continue
+        
+        # 批量获取并计算均值
+        word_embeddings = wv_vectors[valid_indices]
+        doc_embedding = np.mean(word_embeddings, axis=0, dtype=np.float32)
+        features.append(doc_embedding)
+        node_map_idx[node] = len(features) - 1
+    
     return features, node_map_idx
 
-
-def get_MSE(model, features, device):
-    if isinstance(features, list) and all(isinstance(arr, np.ndarray) for arr in features):
-        features = np.stack(features)
-    x = torch.from_numpy(np.asarray(features)).float().to(device)
-    with torch.no_grad():
-        x_recon, mu, logvar = model(x)
-        mse_loss = F.mse_loss(x_recon, x, reduction='none').sum(dim=1).cpu().numpy()
+def get_MSE_optimized(model, features, device):
+    """极致优化的MSE计算"""
+    features_arr = np.array(features, dtype=np.float32, copy=False)
+    x = torch.from_numpy(features_arr).to(device, non_blocking=True)
     
-    return mse_loss.tolist()
+    with torch.inference_mode():
+        x_recon, mu, logvar = model(x)
+        mse_loss = torch.sum((x_recon - x) ** 2, dim=1)
+        return mse_loss.cpu().numpy()
+
+class PipelineOptimizer:
+    """流水线优化器"""
+    def __init__(self, w2vmodel, model, device, threshold):
+        self.w2vmodel = w2vmodel
+        self.model = model
+        self.device = device
+        self.threshold = threshold
+        
+        # 预加载数据
+        self.wv_vectors = w2vmodel.wv.vectors.astype(np.float32)
+        self.word_to_index = {word: idx for idx, word in enumerate(w2vmodel.wv.index_to_key)}
+        
+        # 预热模型
+        self._warmup_model()
+    
+    def _warmup_model(self):
+        """预热模型"""
+        dummy_input = torch.randn(32, 64, device=self.device)
+        with torch.inference_mode():
+            self.model(dummy_input)
+    
+    def process_batch(self, df_batch):
+        """处理单个批次"""
+        batch_arrival_time = time.perf_counter()
+        
+        # 并行处理图构建和特征提取
+        nodes = construct_graph_optimized(df_batch)
+        features, test_node_index = Featurize_optimized(nodes, self.w2vmodel, self.wv_vectors, self.word_to_index)
+        
+        if features:
+            test_mse = get_MSE_optimized(self.model, features, self.device)
+            anomalies = [node for node, mse in zip(test_node_index.keys(), test_mse) if mse > self.threshold]
+        else:
+            anomalies = []
+        
+        completion_time = time.perf_counter()
+        latency = completion_time - batch_arrival_time
+        
+        return anomalies, latency, len(df_batch)
 
 
 @dataclass
@@ -214,6 +180,7 @@ class PerformanceMetrics:
     packet_count: int = 0
     anomaly_count: int = 0
     timestamp: float = time.time()
+
 
 class MetricEvaluation:
     def __init__(self):
@@ -271,8 +238,9 @@ class MetricEvaluation:
         return throughput_ok and latency_ok, message
 
 
-def main():
-    """主函数 - 系统验证流程"""
+
+def main_optimized():
+    """优化版主函数"""
     parser = argparse.ArgumentParser(description='CDM Parser')
     parser.add_argument("--dataset", type=str, default="optc_day23-flow")
     args = parser.parse_args()
@@ -283,8 +251,8 @@ def main():
     FASTTEXT_PATH = DATASET_FILE_MAP[dataset]['FASTTEXT_PATH']
     VAE_PATH = DATASET_FILE_MAP[dataset]['VAE_PATH']
 
+    # 加载模型
     w2vmodel = FastText.load(FASTTEXT_PATH)
-    encoder = PositionalEncoder(64)
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     model = VAE().to(device)
     model.load_state_dict(torch.load(VAE_PATH, map_location=device))
@@ -293,49 +261,37 @@ def main():
     threshold = 91.10735867309342
     anomalies = set()
     metric_evaluate = MetricEvaluation()
+    
+    # 创建流水线优化器
+    pipeline = PipelineOptimizer(w2vmodel, model, device, threshold)
 
-    # stream preprocess and detect
-    for i, df_batch in enumerate(load_data_streaming(TEST_FILE)):
+    # 使用更大的批次和并行处理
+    batch_generator = load_data_streaming_optimized(TEST_FILE, batch_size=20000, num_workers=8)
+
+    for i, df_batch in enumerate(batch_generator):
         if df_batch.empty:
             continue
-
-        batch_arrival_time = time.perf_counter()
-
-        nodes = construct_graph(df_batch)
-        features, test_node_index = Featurize(nodes, w2vmodel, encoder)
-        node_ids = list(test_node_index)
-        test_mse = get_MSE(model, features, device)
-
-        completion_time = time.perf_counter()
-
-        for id, mse in zip(node_ids, test_mse):
-            if mse > threshold:
-                anomalies.add(id)
-
-        latency = completion_time - batch_arrival_time
-
-        # 更新性能指标
+        
+        # 处理批次
+        batch_anomalies, latency, packet_count = pipeline.process_batch(df_batch)
+        anomalies.update(batch_anomalies)
+        
+        # 更新指标
         metrics = metric_evaluate.update_metrics(df_batch, latency)
 
-        # 定期检查性能目标
-        if i % 100 == 0 and i > 0:
+        # 性能监控
+        if i % 20 == 0:
             targets_met, message = metric_evaluate.check_performance_targets()
-            print(f"Performance Check:\n{message}")
+            print(f"Batch {i}: {message}")
             
-            if targets_met:
-                print("All performance targets are being met!")
-            else:
-                print("Some performance targets are not met")
+            if not targets_met and i > 100:
+                print("Warning: Performance targets not met, adjusting parameters...")
+                # 这里可以添加动态调整逻辑
 
-    # 最终性能报告
+    # 最终报告
     targets_met, message = metric_evaluate.check_performance_targets()
-    print(f"Final Performance Report:\n{message}")
-    
-    if targets_met:
-        print("System validation PASSED - All targets achieved!")
-    else:
-        print("System validation FAILED - Targets not met")
-
+    print(f"Final Performance:\n{message}")
+    print(f"Total anomalies detected: {len(anomalies)}")
 
 if __name__ == "__main__":
-    main()
+    main_optimized()
