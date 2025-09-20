@@ -53,6 +53,7 @@ if __name__ == '__main__':
 
     # detection
     test_mse = get_MSE(model, features)
+    
     anomalies = set()
     for id, mse in zip(node_ids, test_mse):
         if mse > threshold:
