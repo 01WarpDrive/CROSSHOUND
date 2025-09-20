@@ -12,11 +12,11 @@ This paper presents CROSSHOUND, the first open-source, provenance-based system t
 
 * Option 1: Pip
     ```bash
-    pip install -r requirements.txt  
+    pip install -r requirements.txt
     ```
 * Option 2: Conda
     ```bash
-    conda env create -f environment.yml  
+    conda env create -f environment.yml
     conda activate [env_name]  
     ```
 

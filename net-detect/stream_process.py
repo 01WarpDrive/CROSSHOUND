@@ -24,7 +24,6 @@ from module.model import VAE
 from module.config import DATASET_FILE_MAP
 
 DEFAULT_BATCH_SIZE = 1000
-DEFAULT_WINDOW_SIZE = 1000
 TARGET_THROUGHPUT = 100000  # packets per second
 MAX_LATENCY_MS = 500  # milliseconds
 
@@ -159,7 +158,7 @@ def infer(document, w2vmodel, encoder):
     return np.mean(output_embedding, axis=0)
 
 
-def Featurize(nodes, dataset, type, w2vmodel, encoder):
+def Featurize(nodes, w2vmodel, encoder):
     features = []
     node_map_idx = {} # {node_id: index in features}
     for node, phrases in nodes.items():
@@ -267,29 +266,31 @@ def main():
     model.eval()
     
     threshold = 91.10735867309342
-    total_packets = 0
     anomalies = set()
     metric_evaluate = MetricEvaluation()
-    start_time = time.time()
 
     # stream preprocess and detect
     for i, df_batch in enumerate(load_data_streaming(TEST_FILE)):
         if df_batch.empty:
             continue
-        processing_start = time.time()
+
+        batch_arrival_time = time.perf_counter()
 
         nodes = consturct_graph(df_batch)
-        features, test_node_index = Featurize(nodes, dataset, 'test', w2vmodel, encoder)
+        features, test_node_index = Featurize(nodes, w2vmodel, encoder)
         node_ids = list(test_node_index)
         test_mse = get_MSE(model, features, device)
+
+        completion_time = time.perf_counter()
+
         for id, mse in zip(node_ids, test_mse):
             if mse > threshold:
                 anomalies.add(id)
 
-        processing_time = time.time() - processing_start 
+        latency = completion_time - batch_arrival_time
+
         # 更新性能指标
-        metrics = metric_evaluate.update_metrics(df_batch, processing_time)
-        total_packets += len(df_batch)
+        metrics = metric_evaluate.update_metrics(df_batch, latency)
 
         # 定期检查性能目标
         if i % 100 == 0 and i > 0:
@@ -309,8 +310,6 @@ def main():
         print("System validation PASSED - All targets achieved!")
     else:
         print("System validation FAILED - Targets not met")
-
-    print(f"total time: {time.time() - start_time}")
 
 
 if __name__ == "__main__":
