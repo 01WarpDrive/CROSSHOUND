@@ -12,10 +12,9 @@ import argparse
 import torch
 import pandas as pd
 import numpy as np
-import pickle as pkl
 from typing import Generator, List, Dict, Tuple
 from concurrent.futures import ThreadPoolExecutor
-from itertools import islice, chain
+from itertools import chain
 import torch.nn.functional as F
 from gensim.models import FastText
 from dataclasses import dataclass
@@ -23,7 +22,7 @@ from collections import deque
 from module.model import VAE
 from module.config import DATASET_FILE_MAP
 
-DEFAULT_BATCH_SIZE = 1000
+DEFAULT_BATCH_SIZE = 5000
 TARGET_THROUGHPUT = 100000  # packets per second
 MAX_LATENCY_MS = 500  # milliseconds
 
@@ -117,12 +116,38 @@ def load_data_streaming(file_path: str,
     print(f'Finish streaming loading. Processed {total_records} records in {batch_count} batches')
 
 
-def consturct_graph(df):
-    nodes = {} # {id of actor and object: }
-    for _, row in df.iterrows():
-        actor_id, object_id = row['src_ip_port'], row["dest_ip_port"]
-        nodes.setdefault(actor_id, []).extend(row['phrase'])
-        nodes.setdefault(object_id, []).extend(row['phrase'])
+
+def construct_graph(df):
+    """使用pandas向量化操作，最快的版本"""
+    nodes = {}
+    
+    # 分组聚合，一次性处理所有相同的actor_id和object_id
+    # 处理源IP
+    src_groups = df.groupby('src_ip_port')['phrase'].agg(lambda x: list(x)).to_dict()
+    for actor_id, phrase_list in src_groups.items():
+        # 展平列表的列表
+        flat_list = []
+        for sublist in phrase_list:
+            if isinstance(sublist, (list, tuple)):
+                flat_list.extend(sublist)
+            else:
+                flat_list.append(sublist)
+        nodes[actor_id] = flat_list
+    
+    # 处理目标IP
+    dest_groups = df.groupby('dest_ip_port')['phrase'].agg(lambda x: list(x)).to_dict()
+    for object_id, phrase_list in dest_groups.items():
+        flat_list = []
+        for sublist in phrase_list:
+            if isinstance(sublist, (list, tuple)):
+                flat_list.extend(sublist)
+            else:
+                flat_list.append(sublist)
+        
+        if object_id in nodes:
+            nodes[object_id].extend(flat_list)
+        else:
+            nodes[object_id] = flat_list
     
     return nodes
 
@@ -276,7 +301,7 @@ def main():
 
         batch_arrival_time = time.perf_counter()
 
-        nodes = consturct_graph(df_batch)
+        nodes = construct_graph(df_batch)
         features, test_node_index = Featurize(nodes, w2vmodel, encoder)
         node_ids = list(test_node_index)
         test_mse = get_MSE(model, features, device)
