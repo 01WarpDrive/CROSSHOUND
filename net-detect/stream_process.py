@@ -1,12 +1,11 @@
 import json
 import time
-import math
 import argparse
 import torch
 import pandas as pd
 import numpy as np
 from typing import Generator, List, Dict, Tuple
-from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
+from concurrent.futures import ProcessPoolExecutor
 from itertools import chain, islice
 import torch.nn.functional as F
 from gensim.models import FastText
@@ -16,10 +15,9 @@ from module.model import VAE
 from module.config import DATASET_FILE_MAP
 
 # 性能参数
-DEFAULT_BATCH_SIZE = 10000  # 增大批次大小
+DEFAULT_BATCH_SIZE = 20000
 TARGET_THROUGHPUT = 100000
 MAX_LATENCY_MS = 500
-PREFETCH_FACTOR = 2  # 预取因子
 
 def batch_json_parse_optimized(lines: List[str]) -> List[Dict]:
     """优化版JSON解析"""
@@ -66,8 +64,8 @@ def load_data_streaming_optimized(file_path: str, batch_size: int = DEFAULT_BATC
         if not df_batch.empty:
             df_batch.sort_values('timestamp', inplace=True, kind='mergesort')
         
-        if batch_idx % 50 == 0:
-            print(f'Processed batch {batch_idx}, records: {total_records:,}')
+        # if batch_idx % 50 == 0:
+        #     print(f'Processed batch {batch_idx}, records: {total_records:,}')
         
         yield df_batch
 
@@ -243,8 +241,10 @@ def main_optimized():
     """优化版主函数"""
     parser = argparse.ArgumentParser(description='CDM Parser')
     parser.add_argument("--dataset", type=str, default="optc_day23-flow")
+    parser.add_argument("--batch", type=int, default=DEFAULT_BATCH_SIZE)
     args = parser.parse_args()
     dataset = args.dataset
+    batch_size = args.batch
 
     dataset_path = f'./dataset/{dataset}/'
     TEST_FILE = f"{dataset_path}{DATASET_FILE_MAP[dataset]['test']}"
@@ -261,12 +261,13 @@ def main_optimized():
     threshold = 91.10735867309342
     anomalies = set()
     metric_evaluate = MetricEvaluation()
+    print(f"batch size: {batch_size}")
     
     # 创建流水线优化器
     pipeline = PipelineOptimizer(w2vmodel, model, device, threshold)
 
     # 使用更大的批次和并行处理
-    batch_generator = load_data_streaming_optimized(TEST_FILE, batch_size=20000, num_workers=8)
+    batch_generator = load_data_streaming_optimized(TEST_FILE, batch_size=batch_size, num_workers=8)
 
     for i, df_batch in enumerate(batch_generator):
         if df_batch.empty:
@@ -283,15 +284,13 @@ def main_optimized():
         if i % 20 == 0:
             targets_met, message = metric_evaluate.check_performance_targets()
             print(f"Batch {i}: {message}")
-            
+
             if not targets_met and i > 100:
                 print("Warning: Performance targets not met, adjusting parameters...")
-                # 这里可以添加动态调整逻辑
 
     # 最终报告
     targets_met, message = metric_evaluate.check_performance_targets()
     print(f"Final Performance:\n{message}")
-    print(f"Total anomalies detected: {len(anomalies)}")
 
 if __name__ == "__main__":
     main_optimized()
