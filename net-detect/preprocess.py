@@ -93,8 +93,8 @@ def infer(document):
     combined_embeddings = np.array(word_embeddings)
     output_embedding = torch.tensor(combined_embeddings, dtype=torch.float)
 
-    if len(document) < 100000:
-        output_embedding = encoder.embed(output_embedding)
+    # if len(document) < 100000:
+    #     output_embedding = encoder.embed(output_embedding)
 
     output_embedding = output_embedding.detach().cpu().numpy()
     return np.mean(output_embedding, axis=0)

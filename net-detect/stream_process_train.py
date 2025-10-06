@@ -18,6 +18,7 @@ from module.config import DATASET_FILE_MAP
 DEFAULT_BATCH_SIZE = 20000
 TARGET_THROUGHPUT = 100000
 MAX_LATENCY_MS = 500
+train_mse = []
 
 def batch_json_parse_optimized(lines: List[str]) -> List[Dict]:
     """优化版JSON解析"""
@@ -115,7 +116,7 @@ def Featurize_optimized(nodes: Dict, w2vmodel, wv_vectors, word_to_index):
         doc_embedding = np.mean(word_embeddings, axis=0, dtype=np.float32)
         features.append(doc_embedding)
         node_map_idx[node] = len(features) - 1
-    
+
     return features, node_map_idx
 
 def get_MSE_optimized(model, features, device):
@@ -159,6 +160,7 @@ class PipelineOptimizer:
         
         if features:
             test_mse = get_MSE_optimized(self.model, features, self.device)
+            train_mse.extend(test_mse)
             anomalies = [node for node, mse in zip(test_node_index.keys(), test_mse) if mse > self.threshold]
         else:
             anomalies = []
@@ -247,7 +249,7 @@ def main_optimized():
     batch_size = args.batch
 
     dataset_path = f'./dataset/{dataset}/'
-    TEST_FILE = f"{dataset_path}{DATASET_FILE_MAP[dataset]['test']}"
+    TEST_FILE = f"{dataset_path}{DATASET_FILE_MAP[dataset]['train']}"
     FASTTEXT_PATH = DATASET_FILE_MAP[dataset]['FASTTEXT_PATH']
     VAE_PATH = DATASET_FILE_MAP[dataset]['VAE_PATH']
 
@@ -258,7 +260,7 @@ def main_optimized():
     model.load_state_dict(torch.load(VAE_PATH, map_location=device))
     model.eval()
     
-    threshold = 65.33643966674799
+    threshold = 91.10735867309342
     anomalies = set()
     metric_evaluate = MetricEvaluation()
     print(f"batch size: {batch_size}")
@@ -280,18 +282,19 @@ def main_optimized():
         # 更新指标
         metrics = metric_evaluate.update_metrics(df_batch, latency)
 
-        # # 性能监控
-        # if i % 20 == 0:
-        #     targets_met, message = metric_evaluate.check_performance_targets()
-        #     print(f"Batch {i}: {message}")
+        # 性能监控
+        if i % 20 == 0:
+            targets_met, message = metric_evaluate.check_performance_targets()
+            print(f"Batch {i}: {message}")
 
-        #     if not targets_met and i > 100:
-        #         print("Warning: Performance targets not met, adjusting parameters...")
+            if not targets_met and i > 100:
+                print("Warning: Performance targets not met, adjusting parameters...")
 
     # 最终报告
     targets_met, message = metric_evaluate.check_performance_targets()
     print(f"Final Performance:\n{message}")
-    print(len(anomalies))
+    threshold = np.percentile(train_mse, 99.7)
+    print(threshold)
 
 if __name__ == "__main__":
     main_optimized()

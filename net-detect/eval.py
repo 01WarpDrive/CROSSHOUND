@@ -42,7 +42,7 @@ if __name__ == '__main__':
     model.eval()
 
     # get from ./train_vae.py
-    threshold = 91.10735867309342
+    threshold = 28.665833816528306
 
     # load test data
     with open(f"dataset/{dataset}/test_features.pkl", "rb") as f:
