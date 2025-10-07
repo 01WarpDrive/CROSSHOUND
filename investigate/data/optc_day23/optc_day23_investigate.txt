@@ -1,0 +1,475 @@
+\Device\HarddiskVolume1\lwabeat\\lwabeat.exe OPEN \Device\HarddiskVolume1\lwabeat\\lwabeat.exe
+System WRITE \Device\HarddiskVolume1\$LogFile
+\Device\HarddiskVolume1\Windows\system32\svchost.exe OPEN \Device\HarddiskVolume1\Windows\system32\svchost.exe
+\Device\HarddiskVolume1\lwabeat\\lwabeat.exe WRITE \Device\HarddiskVolume1\$LogFile
+\Device\HarddiskVolume1\Windows\system32\svchost.exe READ \Device\HarddiskVolume1\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}
+\Device\HarddiskVolume1\Windows\System32\svchost.exe WRITE \Device\HarddiskVolume1\$LogFile
+System WRITE \Device\HarddiskVolume1\pagefile.sys
+\Device\HarddiskVolume1\Windows\system32\svchost.exe CREATE \Device\HarddiskVolume1\Python27\python.EXE
+\Device\HarddiskVolume1\Python27\python.EXE MESSAGE 10.20.4.133:65380->10.20.0.2:80
+\Device\HarddiskVolume1\Windows\system32\lsass.exe OPEN \Device\HarddiskVolume1\Windows\system32\lsass.exe
+schtasks.exe TERMINATE schtasks.exe
+\Device\HarddiskVolume1\Python27\python.EXE CREATE \Device\HarddiskVolume1\Windows\system32\cmd.exe
+\Device\HarddiskVolume1\Windows\system32\cmd.exe OPEN \Device\HarddiskVolume1\Windows\system32\cmd.exe
+\Device\HarddiskVolume1\Windows\system32\cmd.exe CREATE schtasks.exe
+schtasks.exe OPEN schtasks.exe
+\Device\HarddiskVolume1\Python27\python.EXE TERMINATE \Device\HarddiskVolume1\Python27\python.EXE
+\Device\HarddiskVolume1\Windows\System32\svchost.exe OPEN \Device\HarddiskVolume1\Windows\System32\svchost.exe
+\Device\HarddiskVolume1\Windows\System32\svchost.exe READ \Device\HarddiskVolume1\pagefile.sys
+\Device\HarddiskVolume1\Windows\system32\SearchIndexer.exe CREATE \Device\HarddiskVolume1\Windows\system32\SearchFilterHost.exe
+\Device\HarddiskVolume1\Windows\system32\SearchFilterHost.exe TERMINATE \Device\HarddiskVolume1\Windows\system32\SearchFilterHost.exe
+\Device\HarddiskVolume1\Program Files (x86)\Google\Update\GoogleUpdate.exe READ \Device\HarddiskVolume1\pagefile.sys
+\Device\HarddiskVolume1\Python27\python.exe READ \Device\HarddiskVolume1\pagefile.sys
+\Device\HarddiskVolume1\Windows\system32\svchost.exe CREATE \Device\HarddiskVolume1\Windows\SYSTEM32\cmd.exe
+System READ \Device\HarddiskVolume1\pagefile.sys
+\Device\HarddiskVolume1\Windows\system32\wbem\wmiprvse.exe OPEN \Device\HarddiskVolume1\Windows\system32\wbem\wmiprvse.exe
+\Device\HarddiskVolume1\Windows\SYSTEM32\cmd.exe TERMINATE \Device\HarddiskVolume1\Windows\SYSTEM32\cmd.exe
+\Device\HarddiskVolume1\Windows\SYSTEM32\cmd.exe OPEN \Device\HarddiskVolume1\Windows\SYSTEM32\cmd.exe
+\Device\HarddiskVolume1\Python27\python.exe READ \Device\HarddiskVolume1\Users\zleazer\Documents\desktop.ini
+\Device\HarddiskVolume1\Python27\python.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\ping.exe
+\Device\HarddiskVolume1\Python27\python.exe OPEN \Device\HarddiskVolume1\Python27\python.exe
+System MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\kernelbase.dll
+System MODIFY \Device\HarddiskVolume1\WINDOWS\SYSWOW64\USER32.DLL
+System MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\WINNSI.DLL
+dwm.exe OPEN dwm.exe
+\Device\HarddiskVolume1\Windows\system32\svchost.exe CREATE \Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE OPEN \Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Package_1283_for_KB4493474~31bf3856ad364e35~amd64~~10.0.1.5.cat
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\dxgi.dll
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\d3d11.dll
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\WINNSI.DLL
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\dataexchange.dll
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\twinapi.appcore.dll
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\WINSPOOL.DRV
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\propsys.dll
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE WRITE \Device\HarddiskVolume1\$LogFile
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\urlmon.dll
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\iertutil.dll
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Users\zleazer\Documents\desktop.ini
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Users\zleazer\Pictures\desktop.ini
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Users\zleazer\Music\desktop.ini
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Users\zleazer\Videos\desktop.ini
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Users\zleazer\Downloads\desktop.ini
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE READ \Device\HarddiskVolume1\Users\zleazer\OneDrive\desktop.ini
+\Device\HarddiskVolume1\Windows\system32\svchost.exe WRITE \Device\HarddiskVolume1\$LogFile
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE TERMINATE \Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\EXCEL.EXE
+\Device\HarddiskVolume1\Windows\system32\conhost.exe OPEN \Device\HarddiskVolume1\Windows\system32\conhost.exe
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe
+\Device\HarddiskVolume1\Windows\System32\svchost.exe READ \Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Windows\system32\Winsta.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe READ \Device\HarddiskVolume1\Windows\system32\Winsta.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\d3d11.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\WINDOWS\SYSWOW64\USER32.DLL
+\Device\HarddiskVolume1\Windows\System32\svchost.exe READ \Device\HarddiskVolume1\WINDOWS\SYSWOW64\USER32.DLL
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\urlmon.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\urlmon.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\WINDOWS\SYSWOW64\SAMCLI.DLL
+\Device\HarddiskVolume1\Windows\System32\svchost.exe READ \Device\HarddiskVolume1\WINDOWS\SYSWOW64\SAMCLI.DLL
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\propsys.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\propsys.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\WINDOWS\SYSWOW64\MSACM32.DLL
+\Device\HarddiskVolume1\Windows\System32\svchost.exe READ \Device\HarddiskVolume1\WINDOWS\SYSWOW64\MSACM32.DLL
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\WINSPOOL.DRV
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\WINDOWS\APPPATCH\ACGENRAL.DLL
+\Device\HarddiskVolume1\Windows\System32\svchost.exe READ \Device\HarddiskVolume1\WINDOWS\APPPATCH\ACGENRAL.DLL
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\iertutil.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\iertutil.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\kernelbase.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\kernelbase.dll
+\Device\HarddiskVolume1\Windows\system32\conhost.exe TERMINATE \Device\HarddiskVolume1\Windows\system32\conhost.exe
+cmdkey.exe LOAD \Device\HarddiskVolume1\Windows\SysWOW64\cmdkey.exe
+NETSTAT.EXE LOAD \Device\HarddiskVolume1\Windows\SysWOW64\NETSTAT.EXE
+NETSTAT.EXE OPEN NETSTAT.EXE
+NETSTAT.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\snmpapi.dll
+NETSTAT.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\inetmib1.dll
+NETSTAT.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\wshqos.dll
+NETSTAT.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\wshtcpip.DLL
+NETSTAT.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\wship6.dll
+\Device\HarddiskVolume1\Windows\system32\SearchIndexer.exe READ \Device\HarddiskVolume1\pagefile.sys
+cmd.exe OPEN cmd.exe
+findstr.exe OPEN findstr.exe
+cmd.exe CREATE NETSTAT.EXE
+cmd.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\NETSTAT.EXE
+\Device\HarddiskVolume1\Python27\python.exe CREATE \Device\HarddiskVolume1\Windows\system32\cmd.exe
+\Device\HarddiskVolume1\Windows\system32\cmd.exe CREATE tasklist.exe
+tasklist.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\framedynos.dll
+tasklist.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wbem\wbemprox.dll
+tasklist.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wbemcomn.dll
+tasklist.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wbem\wbemsvc.dll
+tasklist.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wbem\fastprox.dll
+tasklist.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wbem\wmiutils.dll
+tasklist.exe OPEN tasklist.exe
+tasklist.exe TERMINATE tasklist.exe
+\Device\HarddiskVolume1\Windows\system32\cmd.exe TERMINATE \Device\HarddiskVolume1\Windows\system32\cmd.exe
+\Device\HarddiskVolume1\Windows\SysNative\qwinsta.exe READ \Device\HarddiskVolume1\Windows\system32\Winsta.dll
+\Device\HarddiskVolume1\Windows\SysNative\qwinsta.exe TERMINATE \Device\HarddiskVolume1\Windows\SysNative\qwinsta.exe
+\Device\HarddiskVolume1\Windows\system32\cmd.exe CREATE findstr.exe
+findstr.exe TERMINATE findstr.exe
+\Device\HarddiskVolume1\Windows\SysNative\qwinsta.exe OPEN \Device\HarddiskVolume1\Windows\SysNative\qwinsta.exe
+System MODIFY \Device\HarddiskVolume1\Windows\AppPatch\sysmain.sdb
+\Device\HarddiskVolume1\Windows\system32\sppsvc.exe OPEN \Device\HarddiskVolume1\Windows\system32\sppsvc.exe
+\Device\HarddiskVolume1\Windows\system32\sppsvc.exe TERMINATE \Device\HarddiskVolume1\Windows\system32\sppsvc.exe
+PING.EXE LOAD \Device\HarddiskVolume1\Windows\SysWOW64\ping.exe
+PING.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\WINNSI.DLL
+PING.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\wshqos.dll
+PING.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\wshtcpip.DLL
+PING.EXE READ \Device\HarddiskVolume1\Windows\SysWOW64\wship6.dll
+\Device\HarddiskVolume1\Windows\SysNative\qwinsta.exe MODIFY \Device\Mup\142.20.61.194\pipe\LSM_API_service
+\Device\HarddiskVolume1\Windows\SysNative\qwinsta.exe WRITE \Device\Mup\142.20.61.194\pipe\LSM_API_service
+cmd.exe TERMINATE cmd.exe
+\Device\HarddiskVolume1\Windows\system32\cmd.exe CREATE \Device\HarddiskVolume1\Windows\SysNative\qwinsta.exe
+NETSTAT.EXE TERMINATE NETSTAT.EXE
+\Device\HarddiskVolume1\Python27\python.exe CREATE PING.EXE
+\Device\HarddiskVolume1\Windows\system32\conhost.exe LOAD \Device\HarddiskVolume1\Windows\SysWOW64\ping.exe
+\Device\HarddiskVolume1\Windows\system32\conhost.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\WINNSI.DLL
+\Device\HarddiskVolume1\Windows\system32\conhost.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wshqos.dll
+\Device\HarddiskVolume1\Windows\system32\conhost.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wshtcpip.DLL
+\Device\HarddiskVolume1\Windows\system32\conhost.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wship6.dll
+PING.EXE TERMINATE PING.EXE
+\Device\HarddiskVolume1\Windows\system32\cmd.exe CREATE \Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe
+\Device\HarddiskVolume1\Windows\system32\cmd.exe READ \Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe READ \Device\HarddiskVolume1\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe TERMINATE \Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe OPEN \Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe
+\Device\HarddiskVolume1\Program Files (x86)\Google\Update\GoogleUpdate.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\kernelbase.dll
+System MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\framedynos.dll
+System MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\wbem\wbemprox.dll
+System MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\wbemcomn.dll
+System MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\wbem\wbemsvc.dll
+System MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\wbem\fastprox.dll
+System MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\wbem\wmiutils.dll
+System READ \Device\HarddiskVolume1\Windows\SysWOW64\wbem\wbemsvc.dll
+System READ \Device\HarddiskVolume1\Windows\SysWOW64\wbem\fastprox.dll
+System READ \Device\HarddiskVolume1\Windows\SysWOW64\framedynos.dll
+System READ \Device\HarddiskVolume1\Windows\SysWOW64\wbem\wbemprox.dll
+System READ \Device\HarddiskVolume1\Windows\SysWOW64\wbem\wmiutils.dll
+taskhostw.exe WRITE \Device\HarddiskVolume1\$LogFile
+System MODIFY \Device\HarddiskVolume1\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}
+System READ \Device\HarddiskVolume1\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}
+\Device\HarddiskVolume1\Windows\System32\RuntimeBroker.exe OPEN \Device\HarddiskVolume1\Windows\System32\RuntimeBroker.exe
+\Device\HarddiskVolume1\Windows\System32\RuntimeBroker.exe READ \Device\HarddiskVolume1\Users\zleazer\Pictures\desktop.ini
+\Device\HarddiskVolume1\Windows\System32\RuntimeBroker.exe READ \Device\HarddiskVolume1\Users\zleazer\Documents\desktop.ini
+\Device\HarddiskVolume1\Windows\System32\RuntimeBroker.exe READ \Device\HarddiskVolume1\Users\zleazer\Music\desktop.ini
+\Device\HarddiskVolume1\Windows\System32\RuntimeBroker.exe READ \Device\HarddiskVolume1\Users\zleazer\Downloads\desktop.ini
+\Device\HarddiskVolume1\Windows\System32\RuntimeBroker.exe READ \Device\HarddiskVolume1\Users\zleazer\Videos\desktop.ini
+\Device\HarddiskVolume1\Windows\System32\RuntimeBroker.exe READ \Device\HarddiskVolume1\Users\zleazer\OneDrive\desktop.ini
+System MODIFY \Device\HarddiskVolume1\Program Files (x86)\Google\Update\GoogleUpdate.exe
+\Device\HarddiskVolume1\Program Files (x86)\Google\Update\GoogleUpdate.exe LOAD \Device\HarddiskVolume1\Program Files (x86)\Google\Update\GoogleUpdate.exe
+\Device\HarddiskVolume1\Program Files (x86)\Google\Update\GoogleUpdate.exe OPEN \Device\HarddiskVolume1\Program Files (x86)\Google\Update\GoogleUpdate.exe
+\Device\HarddiskVolume1\Program Files (x86)\Google\Update\GoogleUpdate.exe TERMINATE \Device\HarddiskVolume1\Program Files (x86)\Google\Update\GoogleUpdate.exe
+\Device\HarddiskVolume1\Python27\python.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\ntdsapi.dll
+winlogon.exe OPEN winlogon.exe
+\Device\HarddiskVolume1\Program Files\Windows Defender\MSASCuiL.exe TERMINATE \Device\HarddiskVolume1\Program Files\Windows Defender\MSASCuiL.exe
+\Device\HarddiskVolume1\Program Files\Windows Defender\MSASCuiL.exe OPEN \Device\HarddiskVolume1\Program Files\Windows Defender\MSASCuiL.exe
+\Device\HarddiskVolume1\Python27\python.exe TERMINATE \Device\HarddiskVolume1\Python27\python.exe
+\Device\HarddiskVolume1\ncr\mantra\runtime\Scripts\mantra.exe OPEN \Device\HarddiskVolume1\ncr\mantra\runtime\Scripts\mantra.exe
+\Device\HarddiskVolume1\ncr\mantra\runtime\Scripts\mantra.exe TERMINATE \Device\HarddiskVolume1\ncr\mantra\runtime\Scripts\mantra.exe
+\Device\HarddiskVolume1\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe TERMINATE \Device\HarddiskVolume1\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+\Device\HarddiskVolume1\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe OPEN \Device\HarddiskVolume1\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+\Device\HarddiskVolume1\Program Files\WindowsApps\Microsoft.WindowsStore_11701.1001.87.0_x64__8wekyb3d8bbwe\WinStore.App.exe TERMINATE \Device\HarddiskVolume1\Program Files\WindowsApps\Microsoft.WindowsStore_11701.1001.87.0_x64__8wekyb3d8bbwe\WinStore.App.exe
+\Device\HarddiskVolume1\Program Files\WindowsApps\Microsoft.WindowsStore_11701.1001.87.0_x64__8wekyb3d8bbwe\WinStore.App.exe OPEN \Device\HarddiskVolume1\Program Files\WindowsApps\Microsoft.WindowsStore_11701.1001.87.0_x64__8wekyb3d8bbwe\WinStore.App.exe
+\Device\HarddiskVolume1\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe TERMINATE \Device\HarddiskVolume1\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe
+\Device\HarddiskVolume1\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe OPEN \Device\HarddiskVolume1\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe
+\Device\HarddiskVolume1\Windows\System32\RuntimeBroker.exe TERMINATE \Device\HarddiskVolume1\Windows\System32\RuntimeBroker.exe
+sihost.exe OPEN sihost.exe
+sihost.exe TERMINATE sihost.exe
+\Device\HarddiskVolume1\Windows\system32\ApplicationFrameHost.exe OPEN \Device\HarddiskVolume1\Windows\system32\ApplicationFrameHost.exe
+\Device\HarddiskVolume1\Windows\system32\ApplicationFrameHost.exe TERMINATE \Device\HarddiskVolume1\Windows\system32\ApplicationFrameHost.exe
+taskhostw.exe OPEN taskhostw.exe
+taskhostw.exe TERMINATE taskhostw.exe
+\Device\HarddiskVolume1\Windows\system32\svchost.exe TERMINATE \Device\HarddiskVolume1\Windows\system32\svchost.exe
+dwm.exe TERMINATE dwm.exe
+fontdrvhost.exe OPEN fontdrvhost.exe
+fontdrvhost.exe TERMINATE fontdrvhost.exe
+winlogon.exe TERMINATE winlogon.exe
+\Device\HarddiskVolume1\Windows\system32\svchost.exe CREATE taskhostw.exe
+\Device\HarddiskVolume1\Windows\system32\svchost.exe CREATE \Device\HarddiskVolume1\Windows\system32\cmd.EXE
+\Device\HarddiskVolume1\Windows\system32\cmd.EXE OPEN \Device\HarddiskVolume1\Windows\system32\cmd.EXE
+\Device\HarddiskVolume1\Windows\system32\cmd.EXE CREATE \Device\HarddiskVolume1\Windows\system32\conhost.exe
+\Device\HarddiskVolume1\Windows\system32\svchost.exe CREATE \Device\HarddiskVolume1\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+\Device\HarddiskVolume1\Windows\system32\svchost.exe CREATE \Device\HarddiskVolume1\Windows\System32\RuntimeBroker.exe
+\Device\HarddiskVolume1\Windows\system32\cmd.EXE CREATE \Device\HarddiskVolume1\ncr\mantra\runtime\Scripts\mantra.exe
+\Device\HarddiskVolume1\ncr\mantra\runtime\Scripts\mantra.exe CREATE \Device\HarddiskVolume1\Python27\python.exe
+System MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\propsys.dll
+bcdedit.exe OPEN bcdedit.exe
+bcdedit.exe TERMINATE bcdedit.exe
+\Device\HarddiskVolume1\Windows\system32\svchost.exe CREATE \Device\HarddiskVolume1\Windows\system32\ApplicationFrameHost.exe
+\Device\HarddiskVolume1\Windows\system32\svchost.exe CREATE \Device\HarddiskVolume1\Program Files\WindowsApps\Microsoft.WindowsStore_11701.1001.87.0_x64__8wekyb3d8bbwe\WinStore.App.exe
+\Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe OPEN \Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe
+\Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe READ \Device\HarddiskVolume1\Windows\AppPatch\sysmain.sdb
+\Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe WRITE \Device\HarddiskVolume1\$LogFile
+\Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:49161->132.197.158.98:8000
+\Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:49162->132.197.158.98:8000
+\Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:49163->132.197.158.98:8000
+\Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:49161->132.197.158.98:8000
+\Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:49162->132.197.158.98:8000
+\Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:49163->132.197.158.98:8000
+\Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:49164->132.197.158.98:8000
+\Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:49165->132.197.158.98:8000
+\Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:49165->132.197.158.98:8000
+\Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:49181->132.197.158.98:8000
+\Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe TERMINATE \Device\HarddiskVolume1\Program Files (x86)\Mozilla Firefox\firefox.exe
+\Device\HarddiskVolume1\Windows\System32\WindowsPowerShell\v1.0\powershell.exe OPEN \Device\HarddiskVolume1\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe READ \Device\HarddiskVolume1\Windows\AppPatch\sysmain.sdb
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe READ \Device\HarddiskVolume1\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Package_1283_for_KB4493474~31bf3856ad364e35~amd64~~10.0.1.5.cat
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\WINMM.dll
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\msacm32.dll
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\WINSPOOL.DRV
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe READ \Device\HarddiskVolume1\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Package_4478_for_KB4493474~31bf3856ad364e35~amd64~~10.0.1.5.cat
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\WINMMBASE.dll
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe READ \Device\HarddiskVolume1\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.9307_none_d0882a20442f72e4\MSVCR80.dll
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe READ \Device\HarddiskVolume1\Windows\System32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Package_1138_for_KB4493474~31bf3856ad364e35~amd64~~10.0.1.5.cat
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe READ \Device\HarddiskVolume1\pagefile.sys
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe READ \Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\BIB.dll
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe READ \Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\ACE.dll
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\gdi32full.dll
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\USER32.dll
+\Device\HarddiskVolume1\Windows\SysWOW64\OneDriveSetup.exe WRITE \Device\HarddiskVolume1\$LogFile
+\Device\HarddiskVolume1\Program Files (x86)\Adobe\Reader 9.0\Reader\AcroRd32.exe CREATE \Device\HarddiskVolume1\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+\Device\HarddiskVolume1\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe OPEN \Device\HarddiskVolume1\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+\Device\HarddiskVolume1\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\WINSPOOL.DRV
+\Device\HarddiskVolume1\Windows\SysWOW64\OneDriveSetup.exe OPEN \Device\HarddiskVolume1\Windows\SysWOW64\OneDriveSetup.exe
+System MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\OneDrive\setup\logs\Uninstall-PerUser_2019-09-23_113313_9cc-15ec.log
+System MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\gdi32full.dll
+System MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\USER32.dll
+\Device\HarddiskVolume1\Windows\SysWOW64\OneDriveSetup.exe TERMINATE \Device\HarddiskVolume1\Windows\SysWOW64\OneDriveSetup.exe
+System MODIFY \Device\HarddiskVolume1\Windows\Temp\tmp9835.tmp
+System WRITE \Device\HarddiskVolume1\Windows\SysWOW64\config\systemprofile\AppData\Local\Microsoft\OneDrive\setup\logs\Uninstall-PerUser_2019-09-23_113313_9cc-15ec.log
+\Device\HarddiskVolume1\Windows\system32\wbem\wmiprvse.exe READ \Device\HarddiskVolume1\pagefile.sys
+\Device\HarddiskVolume1\Python27\python.exe CREATE geckodriver.exe
+geckodriver.exe OPEN geckodriver.exe
+geckodriver.exe CREATE \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe OPEN \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\WINMM.dll
+System MODIFY \Device\HarddiskVolume1\Windows\System32\svchost.exe
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\msacm32.dll
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\WINSPOOL.DRV
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\WINMMBASE.dll
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wbem\wbemprox.dll
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wbemcomn.dll
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe WRITE \Device\HarddiskVolume1\$LogFile
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wbem\wbemsvc.dll
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wbem\fastprox.dll
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:49348->98.61.14.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:49348->98.61.14.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe READ \Device\HarddiskVolume1\pagefile.sys
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:49532->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:49532->5.221.97.162:80
+\Device\HarddiskVolume1\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe TERMINATE \Device\HarddiskVolume1\Program Files (x86)\Common Files\Adobe\ARM\1.0\AdobeARM.exe
+\Device\HarddiskVolume1\Windows\system32\svchost.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\WINMM.dll
+\Device\HarddiskVolume1\Windows\system32\svchost.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\WINMMBASE.dll
+\Device\HarddiskVolume1\Windows\system32\svchost.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\gdi32full.dll
+\Device\HarddiskVolume1\Windows\system32\conhost.exe READ \Device\HarddiskVolume1\pagefile.sys
+\Device\HarddiskVolume1\Python27\python.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\USER32.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe LOAD \Device\HarddiskVolume1\Windows\System32\svchost.exe
+\Device\HarddiskVolume1\Windows\system32\cmd.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wbem\wbemprox.dll
+\Device\HarddiskVolume1\Windows\system32\cmd.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wbemcomn.dll
+\Device\HarddiskVolume1\Windows\system32\cmd.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wbem\wbemsvc.dll
+\Device\HarddiskVolume1\Windows\system32\cmd.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wbem\fastprox.dll
+\Device\HarddiskVolume1\Windows\system32\cmd.exe CREATE taskkill.exe
+taskkill.exe TERMINATE taskkill.exe
+\Device\HarddiskVolume1\Windows\system32\SearchIndexer.exe OPEN \Device\HarddiskVolume1\Windows\system32\SearchIndexer.exe
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50118->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50119->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50121->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50120->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50122->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50123->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50124->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50125->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50126->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50127->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50128->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50129->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50130->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50131->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50132->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50133->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50134->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50135->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50136->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50137->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50138->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50139->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50140->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50143->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50142->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50141->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50144->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50145->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50146->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50147->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50148->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50149->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50150->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50151->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50152->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50153->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50154->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50155->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50157->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50156->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50159->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50158->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50160->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50161->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50164->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50163->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50162->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50165->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50166->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50167->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50169->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50168->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50170->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50118->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50119->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50171->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50172->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50174->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50173->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50175->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50176->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50181->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50182->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50177->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50180->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50179->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50178->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50183->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50184->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50186->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50187->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50185->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50188->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50189->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50190->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50191->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50193->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50194->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50192->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50195->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50198->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50197->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50196->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50199->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50120->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50121->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50122->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50123->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50124->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50125->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50126->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50127->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50128->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50129->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50130->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50131->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50132->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50133->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50134->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50135->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50136->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50137->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50138->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50139->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50140->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50141->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50142->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50143->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50144->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50145->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50146->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50147->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50148->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50149->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50150->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50151->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50152->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50153->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50200->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50201->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50202->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50154->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50203->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50155->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50204->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50156->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50157->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50158->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50205->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50159->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50206->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50207->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50160->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50209->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50208->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50161->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50162->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50163->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50164->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50165->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50166->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50167->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50168->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50169->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.56.202:50210->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50170->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50171->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50173->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50172->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50174->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50175->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50176->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50177->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50178->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50179->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50181->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50182->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50180->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50183->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50184->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50185->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50186->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50187->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50188->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50189->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50190->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50191->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50192->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50193->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50194->193.76.166.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50195->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50196->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50197->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50198->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50199->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50200->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50201->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50202->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50203->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50204->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50205->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50206->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50207->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50208->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50209->193.76.166.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.56.202:50210->193.76.166.5:443
+\Device\HarddiskVolume1\Windows\System32\svchost.exe TERMINATE \Device\HarddiskVolume1\Windows\System32\svchost.exe
+\Device\HarddiskVolume1\Windows\System32\WindowsPowerShell\v1.0\powershell.exe MESSAGE 142.20.56.202:50505->132.197.158.98:80
+\Device\HarddiskVolume1\Windows\System32\WindowsPowerShell\v1.0\powershell.exe START 142.20.56.202:50505->132.197.158.98:80
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\USER32.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\USER32.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\gdi32full.dll
+\Device\HarddiskVolume1\Windows\System32\WindowsPowerShell\v1.0\powershell.exe READ \Device\HarddiskVolume1\pagefile.sys
+\Device\HarddiskVolume1\Windows\system32\lsass.exe WRITE \Device\HarddiskVolume1\$LogFile
+\Device\HarddiskVolume1\Python27\python.exe CREATE \Device\HarddiskVolume1\Python27\python.exe
+\Device\HarddiskVolume1\Windows\System32\WindowsPowerShell\v1.0\powershell.exe TERMINATE \Device\HarddiskVolume1\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+\Device\HarddiskVolume1\Windows\system32\svchost.exe CREATE \Device\HarddiskVolume1\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe
+\Device\HarddiskVolume1\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe WRITE \Device\HarddiskVolume1\$LogFile
+\Device\HarddiskVolume1\Windows\system32\cmd.exe START 10.20.4.133:51977->10.20.0.2:80
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Windows\System32\svchost.exe
+\Device\HarddiskVolume1\Windows\system32\svchost.exe CREATE \Device\HarddiskVolume1\Windows\system32\backgroundTaskHost.exe
+\Device\HarddiskVolume1\Windows\system32\backgroundTaskHost.exe OPEN \Device\HarddiskVolume1\Windows\system32\backgroundTaskHost.exe
+\Device\HarddiskVolume1\Windows\system32\backgroundTaskHost.exe TERMINATE \Device\HarddiskVolume1\Windows\system32\backgroundTaskHost.exe

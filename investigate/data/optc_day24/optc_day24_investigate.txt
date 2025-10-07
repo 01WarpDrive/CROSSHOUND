@@ -1,0 +1,1287 @@
+winlogon.exe LOAD \Device\HarddiskVolume1\Windows\SYSTEM32\ntmarta.dll
+\Device\HarddiskVolume1\Windows\system32\lsass.exe LOAD \Device\HarddiskVolume1\Windows\SYSTEM32\ntmarta.dll
+\Device\HarddiskVolume1\Windows\system32\svchost.exe LOAD \Device\HarddiskVolume1\Windows\SYSTEM32\ntmarta.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe LOAD \Device\HarddiskVolume1\Windows\SYSTEM32\ntmarta.dll
+\Device\HarddiskVolume1\Windows\system32\SearchIndexer.exe LOAD \Device\HarddiskVolume1\Windows\SYSTEM32\ntmarta.dll
+\Device\HarddiskVolume1\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe LOAD \Device\HarddiskVolume1\Windows\SYSTEM32\ntmarta.dll
+\Device\HarddiskVolume1\Program Files\WindowsApps\Microsoft.SkypeApp_11.8.204.0_x64__kzf8qxf38zg5c\SkypeHost.exe LOAD \Device\HarddiskVolume1\Windows\SYSTEM32\ntmarta.dll
+\Device\HarddiskVolume1\Windows\system32\ApplicationFrameHost.exe LOAD \Device\HarddiskVolume1\Windows\SYSTEM32\ntmarta.dll
+\Device\HarddiskVolume1\Program Files\WindowsApps\Microsoft.WindowsStore_11701.1001.87.0_x64__8wekyb3d8bbwe\WinStore.App.exe LOAD \Device\HarddiskVolume1\Windows\SYSTEM32\ntmarta.dll
+\Device\HarddiskVolume1\lwabeat\\lwabeat.exe OPEN \Device\HarddiskVolume1\lwabeat\\lwabeat.exe
+\Device\HarddiskVolume1\Windows\system32\svchost.exe OPEN \Device\HarddiskVolume1\Windows\system32\svchost.exe
+\Device\HarddiskVolume1\Python27\python.exe WRITE \Device\HarddiskVolume1\ncr\mantra\log\mantra.log
+System MODIFY \Device\HarddiskVolume1\ncr\mantra\log\mantra.log
+System WRITE \Device\HarddiskVolume1\ncr\mantra\log\mantra.log
+System MODIFY \Device\HarddiskVolume1\Windows\SYSTEM32\ntmarta.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe OPEN \Device\HarddiskVolume1\Windows\System32\svchost.exe
+\Device\HarddiskVolume1\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe OPEN \Device\HarddiskVolume1\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+\Device\HarddiskVolume1\Windows\system32\DllHost.exe OPEN \Device\HarddiskVolume1\Windows\system32\DllHost.exe
+\Device\HarddiskVolume1\Windows\system32\ApplicationFrameHost.exe OPEN \Device\HarddiskVolume1\Windows\system32\ApplicationFrameHost.exe
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE OPEN \Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE
+\Device\HarddiskVolume1\Windows\system32\lsass.exe OPEN \Device\HarddiskVolume1\Windows\system32\lsass.exe
+\Device\HarddiskVolume1\Python27\python.exe OPEN \Device\HarddiskVolume1\Python27\python.exe
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.24:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.229:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.71:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.23:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.6:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.70:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.21:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.20:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.226:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.208:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.85:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.86:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.81:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.216:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.45:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.207:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.20:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.170:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.113:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.16:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.69:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.172:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.65:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.82:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.5:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.85:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.46:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.233:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.2:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.64:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.111:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.244:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.124:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.220:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.204:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.254:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.205:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.130:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.168:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.116:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.56:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.88:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.142:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.15:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.18:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.245:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.112:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.169:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.246:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.167:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.22:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.248:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.79:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.83:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.206:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.89:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.171:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.171:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.87:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.99:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.200:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.225:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.4:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.68:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.44:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.24:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::5db1:acc0:c375:8abc:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::1d4c:48cd:48e:dc51:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::d1c8:8c5c:4afe:ec30:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::c41c:6a67:6c6b:e2b0:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::792c:ec43:bc4b:d58e:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::57:46cd:d246:4fdb:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::2187:bc28:4209:1172:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.193:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.202:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.112:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.171:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.66:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.12:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.201:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.19:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.191:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.220:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.247:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.7:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.194:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.114:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.172:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.134:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.252:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.138:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.170:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.231:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.123:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.87:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.228:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.48:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.13:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.10:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.163:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.195:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.3:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.47:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.114:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.78:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.92:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.251:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.84:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.168:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.105:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.28:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.173:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.19:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.217:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.140:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.9:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.55:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.132:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.17:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.253:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.88:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.106:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.181:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.6:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.115:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.49:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.98:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.219:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.182:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.80:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.42:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.238:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.86:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.227:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.222:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.57:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.121:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.207:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.208:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.91:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.68:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.101:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.204:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.133:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.229:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.234:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.228:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.58:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.122:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::81a8:8c79:1735:b497:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::34e7:7716:1db2:fe15:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::b4f9:7e7f:5fc8:dd8a:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::b5db:563b:e38c:7e3a:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::d8e6:8cf9:7721:ebd8:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::a555:2cd5:b185:e2ec:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::ecff:f6f2:f87:2078:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::64e1:a1fd:b1b9:680:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::90ed:388c:7f52:af68:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::6103:2808:1931:6704:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::e087:1217:39b4:6034:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::7dbb:3e15:c03a:3126:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::a9cb:1a38:3c13:d10e:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::5031:409c:3075:5e7d:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::646d:38d2:64df:c42f:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::bd54:38db:c4f3:4a55:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::81a8:ca6f:eba0:300d:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::312c:56ad:ed46:ab60:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::da9:e3a1:7434:109d:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::98ec:8f46:bf5e:d630:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::15c2:8943:a875:733a:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::3937:f88d:b906:1990:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::54b1:428b:5cac:e997:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::7972:748a:11c:97ac:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::986d:10ef:486a:29a:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::595d:fe9f:c0f8:5680:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::8cf1:361b:ed84:497d:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::7141:9b6b:69c8:8e6d:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::6424:e70b:d2f:1d28:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::4dd2:ddc5:b4b6:a33e:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::302c:482f:e3c7:1a1d:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::bde1:bb9f:95d2:9f9c:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::846f:cfef:a8c0:2fcb:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::3807:b8d7:af03:9522:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::e415:e93e:2266:5b1e:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::1156:7fca:63a2:481c:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::b95a:a27f:8cf4:6f93:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::3dd6:1ce9:8b25:1bed:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::846f:83e1:2263:b5eb:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::8440:12dc:e310:6522:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::6dfc:fb34:89b6:4fdd:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::10b1:4725:a20f:be51:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::3454:d942:2cd0:dbd7:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::38b9:305a:fe5d:f4c9:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::64a2:165a:57b8:4552:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::88a1:1726:73af:15a8:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::7ca7:32d8:ced8:7c06:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::9434:b1c:ae14:5b60:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::6c11:d84e:7bb4:dc34:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::21ff:10d:9553:b8c4:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::bc88:8ae5:6803:557c:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::fca8:c6ea:1ef2:a33b:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::49b6:a255:806c:f3e0:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::11f8:83c7:bb32:999:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::2c36:6d14:d263:52fb:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.23:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::988a:6627:cff8:fa6d:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.6:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.70:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.20:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.229:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.71:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.21:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.226:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.206:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.77:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.88:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.107:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.74:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.239:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.174:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.30:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.139:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.8:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.1:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.75:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.100:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.141:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.87:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.17:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.227:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.226:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.63:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.86:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.62:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.102:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.67:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.29:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.125:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.32:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.76:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.192:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.43:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.90:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.108:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.11:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.179:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.131:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.237:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.67:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.230:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.219:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.230:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.180:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.115:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.166:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.221:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.183:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.223:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.240:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.164:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.85:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.46:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.113:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.31:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.21:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.14:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.175:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.232:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.241:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.93:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.78:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.218:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.209:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.94:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.216:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.65:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.69:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.170:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.81:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.113:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.172:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.16:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.207:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.20:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.45:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.82:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.86:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.208:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.85:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::602f:abe2:2486:5610:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::c420:d952:6fb3:3f8d:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::a019:4183:4083:9c8e:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::98f2:1853:ca5f:3507:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::b56f:57fc:d1a0:d498:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::c9e4:7d3d:3f1a:67d1:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::4167:4aec:8c1b:48c5:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::a84f:6fe2:998b:8fa1:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::7184:ea09:c855:df2c:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::59a8:1b4f:7830:b63:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::7131:e90a:bc19:2b25:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::28cb:c3db:d65f:eaa8:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::5d75:b67e:3ea0:deb9:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::f9f2:acde:5b02:a23c:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::a9c1:abf2:2170:c96f:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::ca3:9dd2:93aa:5eb6:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::1c77:719a:9af7:e0b9:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::9df2:d425:abf5:e665:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::9840:bcb2:58f0:5770:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::68f3:d634:67ab:a529:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::e829:49f3:13c3:f5f1:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::c011:797f:84bf:f219:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::ecdf:648b:4ce4:4eac:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::4918:914d:3d56:7894:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::6cbf:29f3:5f56:b7fb:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::38ed:2eef:1bb6:6cb9:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::758d:9199:3321:6c4e:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::1c2b:d492:e920:760:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::f545:4644:3099:c661:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::4d7:6a34:5f54:aa7d:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::d9e4:7ace:e02a:c508:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::5ddf:9b99:8945:7152:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::45e3:ee5f:60b4:9096:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::28e8:29e0:e8e9:e28e:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::f183:5ddc:1d58:4046:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::4928:6c3a:d25e:4c69:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::bd4d:92f5:50a1:272b:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::c18e:cb9f:dfc9:51fc:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::70cc:9ad6:ce88:5114:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::59ff:3f16:5783:4961:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::fd74:f951:f6e8:c319:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::8854:c6f4:2eec:c0bd:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::384a:9b39:1e1:3a51:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::84ab:b245:2c3e:bebb:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::182:ea8d:1259:1edd:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::611c:19c4:c1f3:84e1:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::7939:698c:d782:16d4:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::30ad:2bdf:83b1:d8fe:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::cc7:1cc9:7e98:e152:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.217:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.203:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.164:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.18:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.2:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.254:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.130:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.46:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.246:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.169:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.245:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.83:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.244:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.204:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.22:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.5:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.112:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.167:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.116:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.88:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.205:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.15:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.56:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.233:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.220:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.168:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.124:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.85:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.248:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.171:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.142:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.111:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.206:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.64:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.79:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.171:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.89:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.99:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.225:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.200:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.44:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.4:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.68:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.87:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::bd7c:1220:3b4c:6fc5:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::1969:57dc:a795:f08a:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::4012:d4da:4510:ba62:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::7d3f:b63e:f304:751e:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::fc0d:d498:2276:c44c:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::157e:29f0:18b0:3997:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::1420:a703:a2ce:b061:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::8809:91c5:df1b:53db:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::a144:edbf:caf1:849b:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::1c39:6e0e:6719:6c1d:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::c5:9f70:664e:ee89:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::fde0:a99:238:d780:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::e837:7bb6:95bf:7adf:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::d02b:e63d:2ce2:7772:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::5029:4467:2a63:8022:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::c8c3:5a7d:dfc6:86ae:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::c420:1614:7443:a7ff:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::148c:2be8:3195:82f2:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::40f2:7c00:ad67:e38a:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::4d28:84b9:d6dd:362c:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::1d53:393a:3a52:7002:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::90f4:5e8e:87ff:da4c:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::f139:5f55:88d8:372:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::2493:a783:b0de:d06d:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::b0f9:6bad:3f71:e4f9:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::94b6:bd62:3247:2c8f:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::dc79:83d6:cc43:d0fa:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::c921:c01f:7cd0:c8fe:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::58e4:f0c9:4398:77e0:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::50ae:5dd3:1972:2988:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::e9c3:84e0:511d:3be6:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::8444:9fbe:3e64:9e68:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::2994:9c50:6f6e:125c:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::e04f:e792:5473:f22e:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::48b3:d356:97f0:adcc:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::1019:7a10:2dfe:2030:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::c8c2:831e:5e53:4498:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::6583:3d91:4274:bfcc:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::1fd:e9be:35e6:8b91:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::1547:4b38:a8d:fa52:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::e44c:dcfe:535:dd48:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::a44b:bbae:f09c:683c:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::3198:f700:3aac:6842:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::3c0f:965a:7357:8f2d:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::61b3:69b7:d79d:842c:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::e004:8c0f:1453:85d:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::51a4:474c:5452:6e73:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.12:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.13:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.231:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.47:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.114:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.163:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.66:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.172:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.114:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.202:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.228:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.10:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.134:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.191:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.193:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.171:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.170:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.48:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.247:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.3:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.138:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.19:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.194:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.112:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.195:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.220:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.123:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.201:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.7:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.78:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.87:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.252:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.92:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.19:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.105:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.84:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.173:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.168:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.251:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.28:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.68:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.207:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.101:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.98:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.227:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.88:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.121:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.49:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.6:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.228:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.133:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.181:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.57:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.115:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.106:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.55:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.182:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.86:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.132:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.219:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.253:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.204:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.217:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.140:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.229:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.222:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.208:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.42:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.234:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.238:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.80:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.58:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.91:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.9:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.17:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.122:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.206:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.107:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.88:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.77:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.74:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::6914:8dfc:c8da:e6b5:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::2420:240f:d376:1266:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::446:cab9:e73b:dd8b:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::2112:b946:3517:8f08:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::141a:2712:7179:dc15:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::d9cb:c3b9:cfd6:6f1a:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::6020:8e6e:6460:2125:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::946c:9d05:194b:1e0d:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::c0c2:ce6c:23b7:6279:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::84cc:eaff:b329:e947:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::1c59:36f5:f597:7384:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::31fe:48e0:fd94:d0ac:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::35cc:88b2:9751:681b:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::5577:ce75:9326:daa5:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::d807:715b:d043:7757:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::613e:e883:1b1c:195f:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::2802:1b29:10c5:1285:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::3538:aff3:9be7:afe6:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::a40d:6a38:a71f:55d3:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::659e:19dc:5c3:6c21:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::281d:a877:32b0:aa1c:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::1478:d748:6d07:d7c3:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::e443:e578:c80:81c:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.169:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.59:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.104:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.221:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.43:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.17:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.125:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.226:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.227:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.139:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.86:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.76:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.63:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.1:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.239:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.30:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.75:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.100:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.192:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.32:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.141:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.62:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.8:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.67:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.174:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.29:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.87:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.102:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.90:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.179:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.221:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.219:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.230:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.180:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.183:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.85:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.115:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.230:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.67:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.108:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.237:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.166:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.223:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.11:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.131:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.240:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.164:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::8839:38e8:2bfd:a7a3:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::f93a:96fe:17ef:b529:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::bd7b:d323:fbc9:9f10:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::d189:e765:97ed:e357:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::fd1d:1c08:1854:9dc0:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::e52b:de0a:883e:5dbb:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::b1ba:41dd:7922:bec:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::dd7e:32ea:ad0f:a00:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::c1ac:507a:ed4c:de2e:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::b513:3dda:6000:901d:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::a860:38b6:31bc:95cf:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::dc40:8ecf:80b7:310c:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::6c98:eac7:21c1:70cc:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::99f3:6b44:29cd:5a6e:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::f1d9:d172:71ef:e7d0:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::14ea:f97:e1c9:c159:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::7086:b621:ff7f:b325:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::b061:2925:5567:4020:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::919c:5f19:4f58:3db3:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::7892:e0d5:b851:1449:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::c19e:ea01:bf41:5767:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.93:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.232:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.21:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.218:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.113:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.31:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.46:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.209:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.175:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.14:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.241:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.94:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.78:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::d104:458a:9e34:3899:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::b978:37df:c99b:3cc9:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::dc4:2d7:93db:67e6:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::4ce2:c1f4:b6a:242:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::9088:f510:1bf6:3af3:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::b973:721c:c8ac:c27f:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::9402:61d8:2cb8:3a8f:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.217:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::8a7:8e99:a41a:a6c6:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.203:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::2df0:a093:ac99:c34:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.164:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.89:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.15:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.18:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.59:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.169:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.104:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::25d1:8ad8:8eda:1d3:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.221:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.165:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.162:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::6de6:2e9a:577:5875:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.89:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.45:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.84:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.18:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.15:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::a9f2:6d1e:2bac:f784:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::c1d8:dff5:873:5b48:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::c9bf:c31e:a8ac:b974:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.162:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.165:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.162:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.45:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.84:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.2.218:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.1.205:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::b946:2f88:679f:ca7f:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.162:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::31b2:5f96:5992:f3f0:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.3.163:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::f1a7:da0f:1c5:1192:5353->ff02::fb:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.1.205:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.2.218:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.3.163:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Python27\python.exe MESSAGE 10.20.2.66:35091->225.0.0.2:5001
+\Device\HarddiskVolume1\Python27\python.exe START 10.20.2.66:35091->225.0.0.2:5001
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Windows\System32\ConhostV2.dll
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.6.142:58179->239.255.255.250:1900
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.6.142:58179->239.255.255.250:1900
+\Device\HarddiskVolume1\Windows\SysWOW64\OneDriveSetup.exe LOAD \Device\HarddiskVolume1\Windows\SysWOW64\OneDriveSetup.exe
+\Device\HarddiskVolume1\Windows\SysWOW64\OneDriveSetup.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\OneDriveSetup.exe
+System MODIFY \Device\HarddiskVolume1\Windows\system32\SearchFilterHost.exe
+powershell.exe OPEN powershell.exe
+powershell.exe START 142.20.57.246:49807->132.197.158.98:8000
+powershell.exe MESSAGE 142.20.57.246:49807->132.197.158.98:8000
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.6.187:65126->239.255.255.250:1900
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.6.187:65126->239.255.255.250:1900
+powershell.exe TERMINATE powershell.exe
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.50.100.102:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.50.100.102:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.50.100.103:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.50.100.103:5353->224.0.0.251:5353
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::35af:49a5:fa9:e908:58400->ff02::1:3:5355
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::174:4299:11f9:101e:65309->ff02::1:3:5355
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.7.141:54207->239.255.255.250:1900
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.7.141:54207->239.255.255.250:1900
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START fe80::99f0:4bde:fe24:3161:65535->ff02::1:3:5355
+System MODIFY \Device\HarddiskVolume1\Windows\System32\ConhostV2.dll
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE OPEN \Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.0.170:57261->224.0.0.252:5355
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.0.170:57261->224.0.0.252:5355
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE TERMINATE \Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\WINWORD.EXE
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe OPEN \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53537->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53537->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53538->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53539->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53540->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53541->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53542->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53543->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53544->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53545->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53546->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53547->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53538->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53539->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53540->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53541->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53548->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53549->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53550->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53551->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53552->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53553->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53554->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53555->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53556->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53542->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53543->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53545->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53547->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53546->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53544->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53548->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53550->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53549->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53552->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53551->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53553->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53554->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53555->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53556->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53557->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53557->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53558->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53559->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53558->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53559->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53560->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53561->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53563->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53562->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53560->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53561->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53562->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53563->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53564->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53565->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53566->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53567->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53565->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53564->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53566->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53567->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53570->3.157.249.2:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53570->3.157.249.2:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53623->121.166.61.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53623->121.166.61.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53683->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53683->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53684->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53685->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53684->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53685->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53686->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53687->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53688->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53689->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53690->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53691->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53692->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53693->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53694->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53686->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53687->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53688->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53695->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53696->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53697->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53689->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53690->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53691->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53698->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53699->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53692->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53693->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53694->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53695->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53696->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53697->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53698->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53699->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53700->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53701->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53702->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53703->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53704->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53705->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53706->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53707->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53700->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53701->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53702->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53703->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53704->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53705->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53706->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53707->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53708->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53708->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53709->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53710->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53711->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53712->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53713->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53714->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53715->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53716->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53717->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53718->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53719->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53720->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53710->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53709->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53711->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53712->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53713->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53714->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53715->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53716->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53717->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53718->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53719->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53720->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53721->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53722->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53723->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53724->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53725->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53721->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53722->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53723->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53724->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53725->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53726->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53727->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53726->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53727->139.67.157.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:53735->14.96.10.2:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:53735->14.96.10.2:80
+\Device\HarddiskVolume1\Python27\python.exe CREATE PING.EXE
+PING.EXE TERMINATE PING.EXE
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe TERMINATE \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+\Device\HarddiskVolume1\Windows\SysNative\qwinsta.exe OPEN \Device\HarddiskVolume1\Windows\SysNative\qwinsta.exe
+\Device\HarddiskVolume1\Python27\python.exe TERMINATE \Device\HarddiskVolume1\Python27\python.exe
+\Device\HarddiskVolume1\Windows\system32\DllHost.exe TERMINATE \Device\HarddiskVolume1\Windows\system32\DllHost.exe
+\Device\HarddiskVolume1\Windows\system32\conhost.exe TERMINATE \Device\HarddiskVolume1\Windows\system32\conhost.exe
+\Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE TERMINATE \Device\HarddiskVolume1\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE
+\Device\HarddiskVolume1\Program Files\WindowsApps\Microsoft.SkypeApp_11.8.204.0_x64__kzf8qxf38zg5c\SkypeHost.exe TERMINATE \Device\HarddiskVolume1\Program Files\WindowsApps\Microsoft.SkypeApp_11.8.204.0_x64__kzf8qxf38zg5c\SkypeHost.exe
+\Device\HarddiskVolume1\Program Files\WindowsApps\Microsoft.SkypeApp_11.8.204.0_x64__kzf8qxf38zg5c\SkypeHost.exe OPEN \Device\HarddiskVolume1\Program Files\WindowsApps\Microsoft.SkypeApp_11.8.204.0_x64__kzf8qxf38zg5c\SkypeHost.exe
+\Device\HarddiskVolume1\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe TERMINATE \Device\HarddiskVolume1\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+\Device\HarddiskVolume1\Program Files\WindowsApps\Microsoft.WindowsStore_11701.1001.87.0_x64__8wekyb3d8bbwe\WinStore.App.exe TERMINATE \Device\HarddiskVolume1\Program Files\WindowsApps\Microsoft.WindowsStore_11701.1001.87.0_x64__8wekyb3d8bbwe\WinStore.App.exe
+\Device\HarddiskVolume1\Program Files\WindowsApps\Microsoft.WindowsStore_11701.1001.87.0_x64__8wekyb3d8bbwe\WinStore.App.exe OPEN \Device\HarddiskVolume1\Program Files\WindowsApps\Microsoft.WindowsStore_11701.1001.87.0_x64__8wekyb3d8bbwe\WinStore.App.exe
+\Device\HarddiskVolume1\Windows\system32\ApplicationFrameHost.exe TERMINATE \Device\HarddiskVolume1\Windows\system32\ApplicationFrameHost.exe
+\Device\HarddiskVolume1\Windows\system32\svchost.exe TERMINATE \Device\HarddiskVolume1\Windows\system32\svchost.exe
+winlogon.exe TERMINATE winlogon.exe
+winlogon.exe OPEN winlogon.exe
+\Device\HarddiskVolume1\Windows\Explorer.EXE OPEN \Device\HarddiskVolume1\Windows\Explorer.EXE
+\Device\HarddiskVolume1\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe OPEN \Device\HarddiskVolume1\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe
+\Device\HarddiskVolume1\Windows\System32\svchost.exe WRITE \Device\HarddiskVolume1\Users\bantonio\AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\Settings\settings.dat.LOG1
+System WRITE \Device\HarddiskVolume1\Users\bantonio\AppData\Local\Packages\Microsoft.Windows.Cortana_cw5n1h2txyewy\Settings\settings.dat.LOG1
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54103->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54103->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54105->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54106->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54104->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54107->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54108->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54109->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54110->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54104->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54107->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54106->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54105->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54109->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54108->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54110->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54111->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54112->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54113->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54111->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54112->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54113->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54114->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54114->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54115->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54116->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54117->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54118->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54119->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54120->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54121->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54122->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54123->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54124->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54125->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54126->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54127->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54128->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54129->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54115->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54116->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54117->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54119->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54118->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54120->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54121->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54122->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54123->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54124->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54125->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54126->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54128->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54127->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54129->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54130->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54131->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54132->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54133->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54132->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54130->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54131->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54133->98.61.14.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54144->211.25.186.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54217->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54217->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54218->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54219->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54220->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54222->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54221->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54218->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54220->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54219->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54221->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54222->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54292->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54292->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54299->212.215.32.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54323->212.215.32.2:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54323->212.215.32.2:80
+\Device\HarddiskVolume1\Windows\System32\svchost.exe TERMINATE \Device\HarddiskVolume1\Windows\System32\svchost.exe
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54408->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54408->5.221.97.162:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54418->121.166.61.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54418->121.166.61.5:80
+\Device\HarddiskVolume1\Windows\system32\conhost.exe OPEN \Device\HarddiskVolume1\Windows\system32\conhost.exe
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54482->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54482->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54483->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54484->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54485->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54486->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54487->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54483->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54484->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54485->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54486->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54487->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54490->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54491->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54490->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54491->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54492->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54492->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54493->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54494->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54495->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54496->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54497->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54493->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54495->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54496->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54494->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54497->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54498->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54499->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54500->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54501->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54499->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54498->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54500->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54501->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54502->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54503->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54504->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54505->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54506->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54507->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54508->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54509->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54510->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54511->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54512->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54513->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54514->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54502->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54504->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54503->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54505->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54506->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54507->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54515->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54516->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54517->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54518->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54519->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54508->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54509->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54520->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54510->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54521->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54522->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54523->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54524->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54511->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54525->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54526->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54527->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54512->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54513->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54528->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54514->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54529->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54530->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54531->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54532->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54533->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54515->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54516->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54517->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54518->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54519->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54520->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54521->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54522->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54523->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54524->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54525->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54526->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54527->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54528->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54529->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54530->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54531->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54532->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54533->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54534->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54535->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54536->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54534->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54535->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54536->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54537->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54538->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54539->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54540->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54537->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54538->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54539->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54540->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54541->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:54542->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54541->222.206.244.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:54542->222.206.244.5:443
+\Device\HarddiskVolume1\Windows\system32\svchost.exe START 10.20.5.65:57351->239.255.255.250:1900
+\Device\HarddiskVolume1\Windows\system32\svchost.exe MESSAGE 10.20.5.65:57351->239.255.255.250:1900
+\Device\HarddiskVolume1\Program Files (x86)\Google\Chrome\Application\chrome.exe START 142.20.57.246:55959->8.8.8.8:53
+\Device\HarddiskVolume1\Program Files (x86)\Google\Chrome\Application\chrome.exe MESSAGE 142.20.57.246:55959->8.8.8.8:53
+\Device\HarddiskVolume1\Program Files (x86)\Google\Chrome\Application\chrome.exe START 142.20.57.246:63630->8.8.4.4:53
+\Device\HarddiskVolume1\Program Files (x86)\Google\Chrome\Application\chrome.exe MESSAGE 142.20.57.246:63630->8.8.4.4:53
+\Device\HarddiskVolume1\Program Files (x86)\Google\Chrome\Application\chrome.exe START 142.20.57.246:54677->132.197.158.98:8080
+\Device\HarddiskVolume1\Program Files (x86)\Google\Chrome\Application\chrome.exe START 142.20.57.246:54678->132.197.158.98:8080
+\Device\HarddiskVolume1\Program Files (x86)\Google\Chrome\Application\chrome.exe MESSAGE 142.20.57.246:54678->132.197.158.98:8080
+\Device\HarddiskVolume1\Program Files (x86)\Google\Chrome\Application\chrome.exe START 142.20.57.246:54679->132.197.158.98:8080
+\Device\HarddiskVolume1\Program Files (x86)\Google\Chrome\Application\chrome.exe MESSAGE 142.20.57.246:54679->132.197.158.98:8080
+\Device\HarddiskVolume1\Program Files (x86)\Google\Chrome\Application\chrome.exe START 142.20.57.246:54680->132.197.158.98:8080
+\Device\HarddiskVolume1\Program Files (x86)\Google\Chrome\Application\chrome.exe MESSAGE 142.20.57.246:54680->132.197.158.98:8080
+PowerShell.exe OPEN PowerShell.exe
+PowerShell.exe CREATE \Device\HarddiskVolume1\Users\sysadmin\Downloads\fileTransfer1000.exe
+\Device\HarddiskVolume1\Users\sysadmin\Downloads\fileTransfer1000.exe START 142.20.57.246:54702->132.197.158.98:9999
+\Device\HarddiskVolume1\Users\sysadmin\Downloads\fileTransfer1000.exe MESSAGE 142.20.57.246:54702->132.197.158.98:9999
+\Device\HarddiskVolume1\Users\sysadmin\Downloads\fileTransfer1000.exe OPEN \Device\HarddiskVolume1\Users\sysadmin\Downloads\fileTransfer1000.exe
+\Device\HarddiskVolume1\Users\sysadmin\Downloads\fileTransfer1000.exe TERMINATE \Device\HarddiskVolume1\Users\sysadmin\Downloads\fileTransfer1000.exe
+\Device\HarddiskVolume1\Users\sysadmin\Downloads\fileTransfer1000.exe START 142.20.57.246:54710->132.197.158.98:9999
+PowerShell.exe TERMINATE PowerShell.exe
+\Device\HarddiskVolume1\Program Files (x86)\Google\Chrome\Application\chrome.exe START 142.20.57.246:54733->132.197.158.98:8080
+\Device\HarddiskVolume1\Program Files (x86)\Google\Chrome\Application\chrome.exe MESSAGE 142.20.57.246:54733->132.197.158.98:8080
+fileTransfer1000.exe OPEN fileTransfer1000.exe
+fileTransfer1000.exe START 142.20.57.246:54741->132.197.158.98:9999
+fileTransfer1000.exe MESSAGE 142.20.57.246:54741->132.197.158.98:9999
+fileTransfer1000.exe TERMINATE fileTransfer1000.exe
+cmd.exe OPEN cmd.exe
+cmd.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\cmdkey.exe
+findstr.exe TERMINATE findstr.exe
+PING.EXE READ \Device\HarddiskVolume1\Windows\System32\browcli.dll
+PING.EXE READ \Device\HarddiskVolume1\Windows\SYSTEM32\dhcpcsvc6.DLL
+PING.EXE READ \Device\HarddiskVolume1\Windows\SYSTEM32\dhcpcsvc.DLL
+PING.EXE READ \Device\HarddiskVolume1\Windows\system32\NtlmShared.dll
+tasklist.exe READ \Device\HarddiskVolume1\Windows\SysWOW64\wbem\wmiutils.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Windows\System32\browcli.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Windows\SYSTEM32\dhcpcsvc.DLL
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Windows\SYSTEM32\dhcpcsvc6.DLL
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55088->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55088->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55089->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55090->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55091->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55092->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55093->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55091->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55089->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55090->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55092->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55093->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55095->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55096->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55095->149.200.214.130:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55096->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55097->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55098->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55099->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55100->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55101->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55097->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55098->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55099->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55100->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55101->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55102->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55102->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55111->121.166.61.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55111->121.166.61.5:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55113->121.166.61.5:443
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55263->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55263->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55264->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55265->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55266->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55267->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55268->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55264->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55265->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55266->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55267->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55268->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55269->80.31.69.82:80
+LogonUI.exe OPEN LogonUI.exe
+LogonUI.exe TERMINATE LogonUI.exe
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55376->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55376->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55377->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55378->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55379->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55380->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55381->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55377->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55378->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55380->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55379->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55381->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55382->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55382->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55480->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55480->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55481->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55482->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55483->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55484->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55485->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55481->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55482->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55483->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55484->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55485->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55486->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55486->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55566->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55566->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55567->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55568->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55569->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55570->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55571->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55567->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55568->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55569->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55570->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55571->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55572->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55572->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55648->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55648->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55649->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55650->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55649->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55650->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55651->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55651->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55652->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55653->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55654->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55653->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55654->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55652->80.31.69.82:80
+System MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\sechost.dll
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55658->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55658->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55659->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55660->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55661->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55662->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55663->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55660->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55659->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55661->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55662->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55663->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55664->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55664->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55672->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55672->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55673->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55674->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55675->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55676->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55677->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55673->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55674->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55675->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55676->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55677->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55678->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55678->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55703->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55703->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55704->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55705->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55706->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55707->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55708->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55704->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55705->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55706->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55707->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55708->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe START 142.20.57.246:55709->80.31.69.82:80
+\\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe MESSAGE 142.20.57.246:55709->80.31.69.82:80
+\Device\HarddiskVolume1\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe TERMINATE \Device\HarddiskVolume1\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe
+\Device\HarddiskVolume1\Windows\Explorer.EXE TERMINATE \Device\HarddiskVolume1\Windows\Explorer.EXE
+System READ \Device\HarddiskVolume1\Windows\SysWOW64\sechost.dll
+System WRITE \Device\HarddiskVolume1\Windows\Rescache\rc0001\rescache.hit
+System MODIFY \Device\HarddiskVolume1\Windows\Rescache\rc0001\rescache.hit
+\Device\HarddiskVolume1\Windows\System32\svchost.exe MODIFY \Device\HarddiskVolume1\Windows\SysWOW64\sechost.dll
+\Device\HarddiskVolume1\Windows\System32\svchost.exe READ \Device\HarddiskVolume1\Windows\System32\ConhostV2.dll
+schtasks.exe LOAD \Device\HarddiskVolume1\Windows\SysWOW64\schtasks.exe
+schtasks.exe TERMINATE schtasks.exe
+schtasks.exe OPEN schtasks.exe
