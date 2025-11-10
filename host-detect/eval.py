@@ -68,7 +68,7 @@ def main(main_args):
         result_x_test = x_test[test_idx]
         result_y_test = y_test[test_idx]
 
-        evaluate_entity_level_using_knn(dataset_name, x_train, result_x_test, result_y_test, start_time)
+        evaluate_entity_level_using_knn(dataset_name, x_train, result_x_test, result_y_test)
 
 
 if __name__ == '__main__':

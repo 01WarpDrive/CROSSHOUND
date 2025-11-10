@@ -1,6 +1,8 @@
+# 根据攻击调查得到的异常节点生成精简的攻击相关日志，用于LLM攻击场景还原
 import orjson as json
 from dateutil import parser as time_parser
 import pytz
+import chardet
 
 
 def ISO8601_to_UTC_millisecond(time_str):
@@ -25,6 +27,8 @@ def write_list_to_file(lst, filename):
 
 
 def extract_key_log():
+    """根据攻击调查得到的异常节点生成精简的攻击相关日志，用于LLM攻击场景还原
+    """
     metadata = {
         'optc_day23': 'SysClient0201.systemia.com.json',
         'optc_day24': 'SysClient0501.systemia.com.json',
@@ -158,8 +162,6 @@ def search():
     print('no result')
 
 
-import chardet
-
 def convert_to_utf8(file_path):
     """
     检测文件编码并转换为UTF-8
@@ -205,5 +207,3 @@ def convert_to_utf8(file_path):
         print(f"处理文件时出错: {e}")
         return False
 
-# 使用示例
-convert_to_utf8('./data/redteam.txt')

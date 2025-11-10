@@ -65,6 +65,7 @@ def evaluate_entity_level_using_knn(dataset, x_train, x_test, y_test):
             best_idx = i - 1
             break
     best_thres = threshold[best_idx]
+    print(best_thres)
     with open(f'./data/{dataset}/node_list.txt', 'r') as file:
         node_list = file.read().split()
     assert len(node_list) == len(score)
