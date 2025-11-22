@@ -22,3 +22,14 @@ Anomaly detection:
 ```bash
 python eval.py --dataset [DATASET]
 ```
+
+
+
+## Quick eval
+
+When the training is completed, conduct the entire process of detection and testing quickly：
+
+```
+python stream_process.py --dataset [DATASET]
+```
+

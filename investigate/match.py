@@ -1,4 +1,5 @@
 import json
+import time
 import argparse
 import pickle as pkl
 
@@ -109,6 +110,7 @@ def match_lanl(dataset):
 
 
 if __name__ == '__main__':
+    start_time = time.time()
     parser = argparse.ArgumentParser(description='CDM Parser')
     parser.add_argument("--dataset", type=str, default="optc_day23")
     args = parser.parse_args()
@@ -118,3 +120,7 @@ if __name__ == '__main__':
         match_optc(dataset)
     elif 'lanl' in dataset:
         match_lanl(dataset)
+
+    end_time = time.time()
+    elapsed_time = end_time - start_time
+    print(f"finish: {elapsed_time:.4f} s")

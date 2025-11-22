@@ -8,11 +8,11 @@ This paper presents CROSSHOUND, the first open-source, provenance-based system t
 
 ## Installation
 * Python 3.8+
-* Pytorch 1.12.1+cu116
-
 * Option 1: Pip
     ```bash
-    pip install -r requirements.txt  
+    pip install -r requirements.txt
+    pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121
+    pip install  dgl -f https://data.dgl.ai/wheels/torch-2.1/cu121/repo.html
     ```
 * Option 2: Conda
     ```bash

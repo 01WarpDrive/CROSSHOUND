@@ -1,3 +1,4 @@
+# 获取流式处理模式下使用的threshold
 import json
 import time
 import argparse

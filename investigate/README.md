@@ -12,3 +12,10 @@ Reconstruct attack paths:
 ```bash
 python stp.py --dataset [DATASET]
 ```
+
+Extract key log information for further analysis:
+
+```
+python extract.py --dataset [DATASET]
+```
+

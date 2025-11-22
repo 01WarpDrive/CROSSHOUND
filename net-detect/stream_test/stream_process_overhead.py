@@ -1,3 +1,38 @@
+# 监控流式处理模块的性能开销
+# 实测发现，监控会消耗额外时间，因此统计的吞吐量偏低、延迟偏高
+import psutil
+import os
+import threading
+import time
+
+# 全局变量用于记录内存采样和控制监控线程
+memory_samples = []
+monitoring = False  # 初始为 False，等计时开始后再启动监控
+
+def monitor_memory(interval=0.01):
+    """后台线程：定期采样当前进程的物理内存（RSS）"""
+    process = psutil.Process(os.getpid())
+    while monitoring:
+        try:
+            rss = process.memory_info().rss  # 单位：字节
+            memory_samples.append(rss)
+        except psutil.NoSuchProcess:
+            break
+        time.sleep(interval)
+
+# ==============================
+# 启动监控并执行多线程任务
+# ==============================
+
+# 开始计时 & 启动监控
+start_time = time.time()
+monitoring = True
+monitor_thread = threading.Thread(target=monitor_memory, daemon=True)
+monitor_thread.start()
+
+# ------------------------------
+# 你的多线程业务代码（示例）
+
 import json
 import time
 import argparse
@@ -332,3 +367,37 @@ def main_optimized():
 
 if __name__ == "__main__":
     main_optimized()
+
+# ------------------------------
+import concurrent.futures
+
+def worker(n):
+    data = list(range(n * 100_000))  # 模拟内存占用
+    time.sleep(0.1)
+    return sum(data)
+
+try:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+        futures = [executor.submit(worker, i) for i in range(1, 6)]
+        results = [f.result() for f in futures]
+finally:
+    # 确保无论是否异常都停止监控
+    monitoring = False
+    monitor_thread.join()
+
+# 结束计时
+end_time = time.time()
+elapsed_time = end_time - start_time
+
+# ------------------------------
+# 输出结果
+# ------------------------------
+if memory_samples:
+    peak_memory_mb = max(memory_samples) / (1024 ** 2)
+    avg_memory_mb = sum(memory_samples) / len(memory_samples) / (1024 ** 2)
+else:
+    peak_memory_mb = avg_memory_mb = 0.0
+
+print(f"Elapsed time: {elapsed_time:.3f} seconds")
+print(f"Peak memory:  {peak_memory_mb:.2f} MB")
+print(f"Average memory: {avg_memory_mb:.2f} MB")

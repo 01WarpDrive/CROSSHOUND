@@ -13,10 +13,6 @@ from module.config import DATASET_FILE_MAP
 
 
 np.random.seed(42)
-torch.manual_seed(42)
-if torch.cuda.is_available():
-    torch.cuda.manual_seed(42)
-    torch.cuda.manual_seed_all(42)
 
 
 class PositionalEncoder:
@@ -69,19 +65,6 @@ def prepare_sentences(df):
             node_id = row[key]
             nodes.setdefault(node_id, []).extend(row['phrase'])
     return list(nodes.values())
-
-
-def train_FastText(events):
-    """train FastText
-    """
-    print('Start training FastText')
-    phrases = prepare_sentences(events)
-
-    model = FastText(min_count=2, vector_size=64, workers=30, alpha=0.01, window=3, negative=3)
-    model.build_vocab(phrases)
-    model.train(phrases, epochs=100, total_examples=model.corpus_count)
-    model.save(FASTTEXT_PATH)
-    print(f'train model: {FASTTEXT_PATH}')
 
 
 def infer(document):
@@ -139,7 +122,6 @@ if __name__ == '__main__':
     TRAIN_FILE = f"{dataset_path}{DATASET_FILE_MAP[dataset]['train']}"
     TEST_FILE = f"{dataset_path}{DATASET_FILE_MAP[dataset]['test']}"
     FASTTEXT_PATH = DATASET_FILE_MAP[dataset]['FASTTEXT_PATH']
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
     encoder = PositionalEncoder(64)
 
     # load train data, construct  graphs

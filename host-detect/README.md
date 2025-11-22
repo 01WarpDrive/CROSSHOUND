@@ -12,7 +12,7 @@ python eval.py --dataset [DATASET]
 Preprocess data and construct provenance graphs:
 ```bash
 cd .\utils\
-python optc_parser.py --dataset [DATASET]
+python parser.py --dataset [DATASET]
 ```
 
 Start graph representation learning:

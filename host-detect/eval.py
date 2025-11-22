@@ -14,6 +14,7 @@ set_random_seed(0)
 
 def main(main_args):
     device = main_args.device if main_args.device >= 0 else "cpu"
+    print(f"GPU/CPU: {device}")
     device = torch.device(device)
     dataset_name = main_args.dataset
     if dataset_name == 'optc_day23':
