@@ -22,7 +22,7 @@ This paper presents CROSSHOUND, the first open-source, provenance-based system t
 
 ## Structure
 
-* `preprocess/`: Preprocess OpTC dataset
+* `preprocess/`: Preprocess datasets
 * `host-detect/`: host data anomaly detection
 * `net-detect/`: network data anomaly detection
 * `investigate/`: STP-based attack path reconstruction
@@ -34,7 +34,7 @@ According to `investigate/README.md`, perform multi-source provenance correlatio
 
 ### Training from Scratch
 
-1. Run `preprocess/OpTC_preprocess.ipynb` to download and preprocess dataset. 
+1. Run `preprocess/datasets_preprocess.ipynb` to download and preprocess datasets. 
 2. According to `host-detect/README.md`, train the host data detector and obtain host anomalies. 
 3. According to `net-detect/README.md`, train the network data detector and obtain network anomalies. 
 4. According to `investigate/README.md`, perform multi-source provenance correlation to reconstruct the attack paths. 
