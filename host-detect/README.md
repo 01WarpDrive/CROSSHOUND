@@ -11,7 +11,7 @@ python eval.py --dataset [DATASET]
 
 Preprocess data and construct provenance graphs:
 ```bash
-cd .\utils\
+cd ./utils/
 python parser.py --dataset [DATASET]
 ```
 
